@@ -53,9 +53,11 @@ body {
 }
 
 #image {
-  border-radius: 4px;
   max-width: 100%;
   display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 #img-caption {
@@ -205,8 +207,5 @@ blockquote {
   }
   .grid-item #number {
     margin-top: 5px;
-  }
-  blo {
-    blockquote: 1rem;
   }
 }
