@@ -16,10 +16,29 @@
   --green4: #6aeb2d;
 }
 /*RESET PADRÃO*/
-* {
-  font-size: 12px;
+html,
+body,
+header,
+section,
+main,
+form,
+label,
+div,
+nav,
+footer,
+h1,
+h2,
+h3,
+p,
+span,
+ul,
+li,
+a {
+  padding: 0;
   margin: 0;
-  padding: 0%;
+}
+
+* {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -27,53 +46,41 @@
 
 /*CORPO*/
 body {
-  max-width: 1100px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   background: #ffffff;
   margin: 0 auto;
   background: var(--violet);
 }
-#main {
+
+.main {
   border-radius: 4px;
-  margin: 10px;
   text-align: center;
   color: var(--font-w);
-  max-width: 1280px;
+  max-width: 960px;
 }
-#title {
+.title {
   font-family: 'Baloo 2', cursive;
   font-size: 3rem;
-  margin: 5px;
 }
 
-#img-div {
-  border-radius: 4px;
-  /* background: var(--white); */
-  margin: 5px 10px;
-  padding: 5px 10px;
-}
-
-#image {
+.image {
   max-width: 100%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
   border-radius: 4px;
 }
 
 #img-caption {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: var(--white);
   margin-top: 5px;
 }
 
-#fatos {
-  margin: 10px;
+.fatos {
 }
 
-#tribut-info {
-  font-size: 1.7rem;
+.tribut-info {
+  font-size: 1.5rem;
   background: var(--violet);
   grid-column: 1/-1;
   color: var(--yellow);
@@ -83,12 +90,9 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  /* align-items: center; */
   border-radius: 4px;
-  padding: 20px;
-  /* align-items: center; */
+  /* padding: 20px; */
   gap: 20px;
-  background: var(--violet);
 }
 
 .grid-item {
@@ -122,7 +126,7 @@ body {
 }
 
 #number {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--purple03);
   /* margin-top: 5px; */
@@ -132,6 +136,7 @@ body {
   background: var(--yellow);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 blockquote {
   border-radius: 4px;
   font-size: 1.4rem;
@@ -183,7 +188,7 @@ blockquote {
     font-size: 1.3rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 769px) {
   body {
     background: var(--violet);
   }
