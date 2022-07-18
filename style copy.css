@@ -57,13 +57,14 @@ body {
 }
 
 .main {
+  background-color: var(--yellow);
   max-width: 960px;
   margin: 0 auto;
 }
 .title {
   padding: 20px;
   font-size: 2rem;
-  color: var(--white);
+  color: var(--purple04);
 }
 
 .image {
@@ -75,25 +76,23 @@ body {
 }
 .img-caption {
   font-size: 0.875rem;
-  color: var(--white);
+  color: var(--purple03);
 }
 
 .fatos {
-  /* border-radius: 4px; */
 }
 .tribut-info {
   font-size: 24px;
-  color: var(--white);
+  color: var(--purple04);
   padding-bottom: 20px;
 }
 .flex {
   display: flex;
   flex-direction: column;
-  background-color: var(--yellow);
+
   padding: 20px;
   border-radius: 4px;
   gap: 20px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .flex-item {
@@ -119,11 +118,13 @@ body {
 }
 
 .blockquote {
-  background-color: var(--yellow);
+  font-weight: bold;
 }
 
 .footer {
-  background-color: var(--yellow);
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 0.875rem;
 }
 
 .footer a {
